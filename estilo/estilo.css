@@ -1,0 +1,90 @@
+/*ESTILO DEL PORTFOLIO*/
+.fondo{
+    background-image: url("../img/fondo.jpg")
+}
+.fondoPortada{
+    background-image: url("../img/fondoPortada.jpg");
+    background-size: auto;
+    
+}
+.fluorescente{
+    color: rgb(204, 255, 0);
+    text-shadow: 0px 0px 4px  rgb(204, 255, 0);
+}
+.sombraAmarilla{
+    text-shadow: 0px 0px 2px  rgb(204, 255, 0);
+}
+.sombraBlanca{
+    text-shadow: 10px 10px 10px white;
+}
+.sombraNegra{
+    text-shadow: 10px 10px 10px black;
+}
+.sombraRoja{
+    text-shadow: 0px 0px 6px red;
+}
+.fuenteGrande{
+    font-size: 1em;
+}
+.fondoBoton{
+    background-color: rgb(204, 255, 0);
+}
+
+    @font-face {
+        font-family: fuente;
+        src: url(../fonts/Aileron-Black.otf);
+    }
+    @font-face {
+        font-family: fuente2;
+        src: url(../fonts/riesling.ttf);
+    }
+    
+.tipoFuente{
+    font-family: fuente;
+}
+.tipoFuente2{
+    font-family: fuente2;
+}
+.fuenteGrande{
+    font-size: 4em;
+}
+.centrarTexto{
+    text-align: center;
+}
+.titulo{
+    position: absolute;
+    top: 12%;
+    left: 6%;
+}
+.gradiente{
+    background-image: linear-gradient(to right, rgb(204, 255, 0), rgb(77, 83, 77));
+}
+.arribaIzquierda{
+    float: left;
+}
+.tamanioFoto{
+    width: 40%;
+    float: left;
+}
+.negro{
+    color: black;
+}
+.fondoNegro{
+    background-color: black;
+}
+.botonesPortada{
+    float: right;
+    font-family: fuente;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.tamanioBoton{
+    width: 100%;
+}
+.borde{
+    border: 5px solid;
+    border-color: white;
+}
+.sinDecoracion{
+    text-decoration: none;
+}

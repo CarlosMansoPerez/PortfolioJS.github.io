@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculos circulares Ej.2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilo/estilo.css">
+    <link rel="shortcut icon" href="../img/faviconJS.ico" type="image/x-icon">
+
+</head>
+<body class="fondo">
+<p class="tipoFuente text-light arribaDerecha m-4">Creado por : <b class=" fst-italic">Carlos Manso Pérez 1º DAW</b></p>
+
+    <div class="container my-5">
+        
+        <div class="row">
+            <div class="col-sm-10 col-md-8 col-lg-6 mx-auto ">
+                <h2 class="text-center my-4 fluorescente tipoFuente sombraNegra">Cálculo circular a partir de un radio</h2>
+                <h4 class="text-center mb-2 fluorescente tipoFuente sombraNegra">Introduce un valor numérico de radio</h4><br>
+                <div class="mb-3">
+                    <input type="number" class=" gradiente form-control " id="radio" placeholder="Número entero positivo" onfocus="myFunction(this)" required pattern="[01]{8}">
+                </div>
+
+                <button id="calcular" class="gradiente btn btn-secondary mb-3 d-block mx-auto  fondoBoton text-black tipoFuente">Calcular</button>
+                <ul  id="resultados"> <!--LA LISTA ESTÁ VACÍA INICIALMENTE, IREMOS COLGANDO NODOS CONFORME CALCULEMOS RESULTADOS-->
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <a href="../index.html"><button class="gradiente btn btn-secondary  my-5 d-block mx-auto  fondoBoton text-black tipoFuente">Volver</button></a>
+
+    <script src="./ejercicio2.js"></script>
+</body>
+</html>
